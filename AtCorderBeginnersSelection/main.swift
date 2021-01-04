@@ -7,4 +7,4 @@
 
 import Foundation
 
-practiceContest01()
+ABC086A()

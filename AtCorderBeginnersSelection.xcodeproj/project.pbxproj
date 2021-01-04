@@ -10,6 +10,7 @@
 		DAA58F9D25A36D6E00A33268 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58F9C25A36D6E00A33268 /* main.swift */; };
 		DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA525A36F3700A33268 /* practice-contest-01.swift */; };
 		DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA925A3702C00A33268 /* readlineExt.swift */; };
+		DAA58FAF25A3712700A33268 /* ABC086.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FAE25A3712700A33268 /* ABC086.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		DAA58F9C25A36D6E00A33268 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DAA58FA525A36F3700A33268 /* practice-contest-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "practice-contest-01.swift"; sourceTree = "<group>"; };
 		DAA58FA925A3702C00A33268 /* readlineExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readlineExt.swift; sourceTree = "<group>"; };
+		DAA58FAE25A3712700A33268 /* ABC086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC086.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA58FA825A3700D00A33268 /* Utils */,
+				DAA58FAD25A3710700A33268 /* ABC086 */,
 				DAA58F9C25A36D6E00A33268 /* main.swift */,
 				DAA58FA425A36F2400A33268 /* Practice */,
 			);
@@ -82,6 +85,14 @@
 				DAA58FA925A3702C00A33268 /* readlineExt.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAA58FAD25A3710700A33268 /* ABC086 */ = {
+			isa = PBXGroup;
+			children = (
+				DAA58FAE25A3712700A33268 /* ABC086.swift */,
+			);
+			path = ABC086;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */,
 				DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */,
 				DAA58F9D25A36D6E00A33268 /* main.swift in Sources */,
+				DAA58FAF25A3712700A33268 /* ABC086.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
