@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DAA58F9D25A36D6E00A33268 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58F9C25A36D6E00A33268 /* main.swift */; };
+		DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA525A36F3700A33268 /* practice-contest-01.swift */; };
+		DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA925A3702C00A33268 /* readlineExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DAA58F9925A36D6E00A33268 /* AtCorderBeginnersSelection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AtCorderBeginnersSelection; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA58F9C25A36D6E00A33268 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DAA58FA525A36F3700A33268 /* practice-contest-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "practice-contest-01.swift"; sourceTree = "<group>"; };
+		DAA58FA925A3702C00A33268 /* readlineExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readlineExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,27 @@
 		DAA58F9B25A36D6E00A33268 /* AtCorderBeginnersSelection */ = {
 			isa = PBXGroup;
 			children = (
+				DAA58FA825A3700D00A33268 /* Utils */,
 				DAA58F9C25A36D6E00A33268 /* main.swift */,
+				DAA58FA425A36F2400A33268 /* Practice */,
 			);
 			path = AtCorderBeginnersSelection;
+			sourceTree = "<group>";
+		};
+		DAA58FA425A36F2400A33268 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				DAA58FA525A36F3700A33268 /* practice-contest-01.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		DAA58FA825A3700D00A33268 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAA58FA925A3702C00A33268 /* readlineExt.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */,
+				DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */,
 				DAA58F9D25A36D6E00A33268 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
