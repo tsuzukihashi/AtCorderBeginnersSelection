@@ -24,7 +24,7 @@ func ABC081B() {
         return result
     }
     
-    let num = readInt()
+    _ = readInt()
     var items = readInts()
     
     var sum = 0
