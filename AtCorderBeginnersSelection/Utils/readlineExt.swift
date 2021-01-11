@@ -19,3 +19,8 @@ func readTwoInts() -> (a: Int, b: Int) {
     let ints = readLine()!.split(separator: " ").map { Int($0)! }
     return (a: ints[0], b: ints[1])
 }
+
+func readThreeInts() -> (a: Int, b: Int, c: Int) {
+    let ints = readLine()!.split(separator: " ").map { Int($0)! }
+    return (a: ints[0], b: ints[1], c: ints[2])
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAC3DF5C25ACA6C6005DD203 /* ABC083B.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3DF5B25ACA6C6005DD203 /* ABC083B.swift */; };
 		DAA58F9D25A36D6E00A33268 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58F9C25A36D6E00A33268 /* main.swift */; };
 		DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA525A36F3700A33268 /* practice-contest-01.swift */; };
 		DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA58FA925A3702C00A33268 /* readlineExt.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AAC3DF5B25ACA6C6005DD203 /* ABC083B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC083B.swift; sourceTree = "<group>"; };
 		DAA58F9925A36D6E00A33268 /* AtCorderBeginnersSelection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AtCorderBeginnersSelection; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA58F9C25A36D6E00A33268 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DAA58FA525A36F3700A33268 /* practice-contest-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "practice-contest-01.swift"; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAC3DF5A25ACA6B9005DD203 /* ABC083 */ = {
+			isa = PBXGroup;
+			children = (
+				AAC3DF5B25ACA6C6005DD203 /* ABC083B.swift */,
+			);
+			path = ABC083;
+			sourceTree = "<group>";
+		};
 		DAA58F9025A36D6E00A33268 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 			children = (
 				DAA58FA825A3700D00A33268 /* Utils */,
 				DAA58FB325A4B1B600A33268 /* ABC081 */,
+				AAC3DF5A25ACA6B9005DD203 /* ABC083 */,
 				DAA58FAD25A3710700A33268 /* ABC086 */,
 				DAA58FBA25A8A52B00A33268 /* ABC087 */,
 				DAA58F9C25A36D6E00A33268 /* main.swift */,
@@ -180,6 +191,7 @@
 				DAA58FAA25A3702C00A33268 /* readlineExt.swift in Sources */,
 				DAA58FA625A36F3700A33268 /* practice-contest-01.swift in Sources */,
 				DAA58F9D25A36D6E00A33268 /* main.swift in Sources */,
+				AAC3DF5C25ACA6C6005DD203 /* ABC083B.swift in Sources */,
 				DAA58FAF25A3712700A33268 /* ABC086.swift in Sources */,
 				DAA58FB525A4B1C100A33268 /* ABC081A.swift in Sources */,
 				DAA58FB825A7522800A33268 /* ABC081B.swift in Sources */,
@@ -311,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A93B2TPWBT;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -322,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A93B2TPWBT;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
